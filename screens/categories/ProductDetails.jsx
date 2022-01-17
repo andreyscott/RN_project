@@ -19,7 +19,7 @@ const ProductDetail = () => {
     <SafeAreaView style={styles.container}>
       <ImageBackground
         style={styles.background}
-        source={require("../../assets/images/CategoryImages/c3.png")}
+        source={require("../../assets/images/c3.png")}
       />
       <View style={styles.textContainer}>
         <View>

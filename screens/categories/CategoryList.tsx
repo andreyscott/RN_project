@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
 
-//import {StackParamList} from '../../Routes/AppNavigation/CategoryNavigator';
+import {StackParamList} from '../../Routes/AppNavigation/CategoryNavigator';
 import ItemCard from '../../components/CategoryListCard';
 import OptionList from '../../components/OptionList';
 import SearchBar from '../../components/SearchBar';
@@ -29,19 +29,19 @@ const data: datatype = [
   {
     title: 'Boston Lettuce ',
     price: 1.1,
-    image: require('../assets/images/bd/veges.png'),
+    image: require('../../assets/images/c2.png'),
     id: 1,
   },
   {
     title: 'Purple Cauliflower',
     price: 1.85,
-    image: require('../../assets/images/CategoryImages/c1.png'),
+    image: require('../../assets/images/c4.png'),
     id: 2,
   },
   {
     title: 'Savoy Cabbage',
     price: 1.45,
-    image: require('../../assets/images/CategoryImages/c2.png'),
+    image: require('../../assets/images/c5.png'),
     id: 3,
   },
 ];
@@ -58,14 +58,14 @@ const secondOptionsData: {title: string; id: number}[] = [
   {id: 2, title: 'Tomatoes (10)'},
 ];
 
-// type ProfileScreenNavigationProp = StackNavigationProp<
-//   StackParamList,
-//   'CategoryListScreen'
-// >;
+type ProfileScreenNavigationProp = StackNavigationProp<
+  StackParamList,
+  'CategoryListScreen'
+>;
 
-// type Props = {
-//   navigation: ProfileScreenNavigationProp;
-// };
+type Props = {
+  navigation: ProfileScreenNavigationProp;
+};
 
 const CategoryList = ({navigation}: Props) => {
   const [activeKey, setActiveKey] = useState<string>('');
