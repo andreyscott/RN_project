@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Platform,
-  View,
-  Image,
-  StatusBar,
-  ImageBackground,
-  SafeAreaView,
+import { StyleSheet, Platform, View,  Image, StatusBar, ImageBackground, SafeAreaView,
 } from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import AppText from '../Components/AppText';

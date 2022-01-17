@@ -5,7 +5,7 @@ import AntIcons from 'react-native-vector-icons/FontAwesome';
 
 import CategoryScreen from './CategoryNavigator';
 import Checkout from './CheckoutNavigator';
-//import Profile from '../../Screens/Profile/ProfileScreen';
+import Profile from '../../screens/profile/Profile';
 import colors from'../../assets/Constant/colors';
 
 type RootStackParamList = {
@@ -42,7 +42,7 @@ const AppNavigator = () => (
         ),
       }}
     />
-    {/* <Tab.Screen
+    <Tab.Screen
       name="Profile"
       component={Profile}
       options={{
@@ -50,7 +50,7 @@ const AppNavigator = () => (
           <AntIcons name="user" color={color} size={size} />
         ),
       }}
-    /> */}
+    />
   </Tab.Navigator>
 );
 

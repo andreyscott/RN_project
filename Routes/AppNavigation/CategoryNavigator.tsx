@@ -16,13 +16,14 @@ const Stack = createStackNavigator<StackParamList>();
 
 function App() {
   return (
-    <Stack.Navigator initialRouteName="CategoriesScreen">
+    <Stack.Navigator initialRouteName="CategoriesScreen" >
       <Stack.Screen
         name="CategoriesScreen"
         component={CategoriesScreen}
         options={{
           headerTitle: '',
           headerStyle: {backgroundColor: colors.primary},
+          headerShown: false
         }}
       />
       <Stack.Screen
