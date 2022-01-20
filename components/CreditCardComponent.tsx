@@ -3,7 +3,7 @@ import React from 'react';
 import {StyleSheet, View, ImageBackground} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 
-import AppText from '../Components/AppText';
+import AppText from '../components/AppText';
 import colors from '../assets/Constant/colors';
 
 type Props = {
