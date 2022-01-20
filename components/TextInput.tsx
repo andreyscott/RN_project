@@ -3,7 +3,7 @@ import React, {SetStateAction} from 'react';
 import {StyleSheet, TextInput, View, ViewStyle, Text} from 'react-native';
 
 import colors from '../assets/Constant/colors';
-import {MaterialIcon} from '../components/Icon';
+import {MaterialIcon} from '/Icon';
 
 type Props = {
   InputStyle?: ViewStyle;
