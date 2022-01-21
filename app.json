@@ -4,7 +4,7 @@
     "slug": "tsxapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/andrey.jpg",
+    "icon": "./assets/LOGO.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {

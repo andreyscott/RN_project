@@ -26,7 +26,7 @@ const HomeScreen = ({navigation}: Props) => {
       </ImageBackground>
       <View style={styles.textContainer}>
         <View style={styles.iconBox}>
-          <Image source={require('../assets/images/box.jpg')} />
+          <Image source={require('../assets/images/Base.png')} />
         </View>
         <View>
           <AppText
