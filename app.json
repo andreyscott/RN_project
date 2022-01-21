@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "tsxapp",
+    "name": "andreyFirst",
     "slug": "tsxapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/andrey.jpg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/download.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

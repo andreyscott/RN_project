@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, Platform, View,  Image, StatusBar, ImageBackground, SafeAreaView,
 } from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
-import AppText from '../Components/AppText';
-import CustomButton from '../Components/CustomButton';
+import AppText from '../components/AppText';
+import CustomButton from '../components/CustomButton';
 import colors from '../assets/Constant/colors';
 
 import {RootStackParamList} from '../navigation/Routes/HomeNavigator';
